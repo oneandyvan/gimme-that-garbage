@@ -2,7 +2,7 @@
 My first web game built in Phaser, to be incorporated in the Arcade section of "Comfort Cabinet".
 
 
-Uses the NextJS template for create-phaser-game. Check the README of Phaser's official template [repo](https://github.com/phaserjs/template-nextjs) for the basic project structure, commands, and essential files.
+Uses the NextJS template for create-phaser-game. Check the README of Phaser's official template [repo](https://github.com/phaserjs/template-nextjs) for the basic project structure, commands, and essential files. (I realized I could have just forked the files from here, but lesson learned for next time!)
 
 ## Concept
 The player will drive a garbage truck in different environments, aiming to collect as much trash as possible before time runs out and return to the dump to deposit their stash.
