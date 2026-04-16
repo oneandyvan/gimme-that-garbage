@@ -2,6 +2,7 @@ import { Boot } from './scenes/Boot';
 import { GameOver } from './scenes/GameOver';
 import { Game as MainGame } from './scenes/Game';
 import { MainMenu } from './scenes/MainMenu';
+import { LevelSelect } from './scenes/LevelSelect'
 import { AUTO, Game } from 'phaser';
 import { Preloader } from './scenes/Preloader';
 
@@ -12,11 +13,21 @@ const config: Phaser.Types.Core.GameConfig = {
     width: 1024,
     height: 768,
     parent: 'game-container',
+    input: {
+        keyboard: true
+    },
+    physics: {
+      default: "arcade",
+      arcade: {
+        debug: true,
+      },
+    },
     backgroundColor: '#028af8',
     scene: [
         Boot,
         Preloader,
         MainMenu,
+        LevelSelect,
         MainGame,
         GameOver
     ]
