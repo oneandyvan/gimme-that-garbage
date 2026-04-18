@@ -35,6 +35,9 @@ export class Preloader extends Scene
         this.load.image('logo', 'logo.png');
         this.load.image('truck', 'truck.png');
         this.load.image('dump', 'dump.svg');
+
+        //  Temp Tile Loading
+        this.load.image('terrain', 'tile/grass.png');
     }
 
     create ()
